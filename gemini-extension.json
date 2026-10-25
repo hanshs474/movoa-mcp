@@ -1,0 +1,13 @@
+{
+  "name": "movoa",
+  "version": "0.1.0",
+  "description": "Unlimited AI video generator with sound: on paid plans the tenth take of a shot costs what the first did, and your first clip is free to make right now. Generate video with sound on movoa.ai from Gemini CLI, on your own API key.",
+  "mcpServers": {
+    "movoa": {
+      "command": "npx",
+      "args": ["-y", "movoa-mcp"],
+      "env": { "MOVOA_API_KEY": "$MOVOA_API_KEY" }
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}

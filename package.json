@@ -1,0 +1,24 @@
+{
+  "name": "movoa-mcp",
+  "version": "0.1.0",
+  "mcpName": "io.github.hanshs474/movoa-mcp",
+  "description": "Unlimited AI video generator with sound: on paid plans the tenth take of a shot costs what the first did, and your first clip is free to make right now. MCP server for Movoa (movoa.ai): generate video clips with sound from Claude, Cursor or any MCP client on your Movoa credits.",
+  "keywords": ["mcp", "model-context-protocol", "mcp-server", "ai-video-generator", "text-to-video", "image-to-video", "photo-to-video", "ai-video-with-audio", "minimax-h3", "seedance-2-5", "veo-3", "movoa"],
+  "homepage": "https://movoa.ai/?utm_source=npm&utm_medium=package",
+  "bugs": { "url": "https://github.com/hanshs474/movoa-mcp/issues" },
+  "repository": { "type": "git", "url": "git+https://github.com/hanshs474/movoa-mcp.git" },
+  "license": "MIT",
+  "author": "Movoa (https://movoa.ai)",
+  "type": "module",
+  "bin": { "movoa-mcp": "dist/index.js" },
+  "files": ["dist", "README.md", "LICENSE"],
+  "scripts": {
+    "build": "tsc && chmod +x dist/index.js",
+    "start": "node dist/index.js",
+    "test": "npm run build && node --test test/*.test.mjs",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": { "@modelcontextprotocol/sdk": "^1.12.0", "zod": "^3.23.8" },
+  "devDependencies": { "@types/node": "^22.0.0", "typescript": "^5.6.0" },
+  "engines": { "node": ">=18" }
+}

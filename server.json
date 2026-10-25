@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "io.github.hanshs474/movoa-mcp",
+  "description": "Movoa (movoa.ai), the AI video generator with sound: text and photo to video from any MCP client.",
+  "repository": { "url": "https://github.com/hanshs474/movoa-mcp", "source": "github" },
+  "version": "0.1.0",
+  "websiteUrl": "https://movoa.ai/",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "movoa-mcp",
+      "version": "0.1.0",
+      "transport": { "type": "stdio" },
+      "environmentVariables": [
+        { "name": "MOVOA_API_KEY", "description": "API key from https://movoa.ai/settings/apikeys", "isRequired": true, "isSecret": true }
+      ]
+    }
+  ]
+}

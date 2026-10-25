@@ -40,6 +40,14 @@ npx -y movoa-mcp
 
 Claude Code in one line: `claude mcp add movoa -e MOVOA_API_KEY=sk-... -- npx -y movoa-mcp`
 
+### Remote (Streamable HTTP, no install)
+
+```
+https://movoa.ai/api/mcp
+```
+
+Send your key with each request as `Authorization: Bearer sk-...`. Listing the tools needs no key; running one does. Claude Code: `claude mcp add --transport http movoa https://movoa.ai/api/mcp --header "Authorization: Bearer sk-..."`
+
 ### Gemini CLI
 
 ```bash

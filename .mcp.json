@@ -4,7 +4,7 @@
     "movoa": {
       "type": "stdio",
       "command": "npx",
-      "args": ["-y", "movoa-mcp"],
+      "args": ["-y", "movoa-mcp@0.1.0"],
       "env": { "MOVOA_API_KEY": "${MOVOA_API_KEY}" }
     }
   }

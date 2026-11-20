@@ -1,9 +1,9 @@
 {
   "name": "movoa",
   "version": "0.1.0",
-  "description": "Unlimited AI video generator with sound: on paid plans the tenth take of a shot costs what the first did, and your first clip is free to make right now. Generate video with sound on movoa.ai from Claude Code, on your own API key.",
+  "description": "MCP server and video generation skill for movoa.ai: generate short video clips with synchronized audio from text prompts or photos using your MOVOA_API_KEY.",
   "author": { "name": "Movoa", "url": "https://movoa.ai/" },
-  "homepage": "https://movoa.ai/?utm_source=claude-plugin&utm_medium=package",
+  "homepage": "https://movoa.ai/",
   "repository": "https://github.com/hanshs474/movoa-mcp",
   "license": "MIT",
   "keywords": ["ai", "video-generation", "text-to-video", "image-to-video", "mcp"]

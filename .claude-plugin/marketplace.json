@@ -6,11 +6,11 @@
   "plugins": [
     {
       "name": "movoa",
-      "description": "Unlimited AI video generator with sound: on paid plans the tenth take of a shot costs what the first did, and your first clip is free to make right now. Generate video with sound on movoa.ai from Claude Code.",
+      "description": "MCP server and video generation skill for movoa.ai: generate short video clips with synchronized audio from text prompts or photos using your MOVOA_API_KEY.",
       "version": "0.1.0",
       "source": "./",
-      "category": "productivity",
-      "homepage": "https://movoa.ai/?utm_source=claude-plugin&utm_medium=package"
+      "category": "creative",
+      "homepage": "https://movoa.ai/"
     }
   ]
 }

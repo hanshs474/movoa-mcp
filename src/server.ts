@@ -124,7 +124,8 @@ export function createServer(): McpServer {
     async () => {
       if (!hasApiKey()) return fail(`No API key set. ${credentialsHint}`);
       try {
-        return text(`${await credits()} credits left on your Movoa account. Plans and top-ups: https://movoa.ai/pricing`);
+        const left = await credits();
+        return text(left > 0 ? `${left} credits left on your Movoa account.` : `0 credits left on your Movoa account. Plans and top-ups: https://movoa.ai/pricing`);
       } catch (e) {
         return fail(`Could not read credits: ${explain(e)}`);
       }

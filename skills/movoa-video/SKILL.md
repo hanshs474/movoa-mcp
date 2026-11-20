@@ -7,7 +7,7 @@ license: MIT
 
 # Movoa video
 
-Unlimited AI video generator with sound: on paid plans the tenth take of a shot costs what the first did, and your first clip is free to make right now. This skill drives [Movoa](https://movoa.ai/)'s API: [text to video](https://movoa.ai/video/text-to-video) or [photo to video](https://movoa.ai/video/photo-to-video), and the clip comes back with sound.
+Generate short video clips with sound through [Movoa](https://movoa.ai/)'s API: [text to video](https://movoa.ai/video/text-to-video) or [photo to video](https://movoa.ai/video/photo-to-video), billed from your `MOVOA_API_KEY` credit balance.
 
 ## When to Use This Skill
 
